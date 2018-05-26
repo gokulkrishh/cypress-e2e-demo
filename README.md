@@ -15,3 +15,7 @@ npm install or yarn install
 ```bash
 npm run cypress
 ```
+
+#### Demo
+
+![Demo](https://raw.githubusercontent.com/gokulkrishh/cypress-e2e-demo/master/Demo.png)
