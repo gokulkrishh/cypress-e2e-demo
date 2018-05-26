@@ -1,0 +1,66 @@
+.form-container {
+	width: 400px;
+	min-height: 300px;
+	margin: 100px auto;
+	border: 1px solid #333;
+	padding: 20px;
+	border-radius: 4px;
+	box-shadow: 3px 3px 0px 0px #333;
+}
+
+.form-container h3 {
+	text-align: center;
+	margin: 30px auto;
+	margin-top: 0;
+	color: #333;
+}
+
+.form-container .form-seperator {
+	display: flex;
+	align-items: center;
+}
+
+.form-container .form-seperator:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.form-container .form-seperator label {
+	padding-right: 10px;
+	font-size: 14px;
+	width: 120px;
+	color: #333;
+}
+
+.form-container .form-seperator input {
+	width: 250px;
+	height: 35px;
+	border: 1px solid #4a69ff;
+	border-radius: 4px;
+	padding: 0 10px;
+	font-size: 14px;
+	outline: 0;
+	box-shadow: 1px 1px 0px 0px #4a69ff;
+	color: #333;
+}
+
+.form-container .form-seperator input:focus {
+	border: 1px solid #2348fd;
+}
+
+.form-container .form-seperator input::-webkit-input-placeholder {
+	color: #333;
+	font-family: "Roboto Mono", monospace;
+	opacity: 0.6;
+}
+
+.form-container .form-seperator button {
+	width: 80px;
+	height: 35px;
+	border-radius: 4px;
+	border: 1px solid #333;
+	font-size: 13px;
+	float: right;
+	background: #fff;
+	color: #333;
+	box-shadow: 1px 1px 0px 0px #333;
+}
