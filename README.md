@@ -16,6 +16,6 @@ npm install or yarn install
 npm run cypress
 ```
 
-#### Demo
+#### Preview
 
-![Demo](https://raw.githubusercontent.com/gokulkrishh/cypress-e2e-demo/master/Demo.png)
+![Preview](https://raw.githubusercontent.com/gokulkrishh/cypress-e2e-demo/master/Demo.png)
